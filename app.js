@@ -63,7 +63,7 @@ app.route('/treino/peito').get( (req, res) => {
   res.json(treinoPeito);
 });
 
-app.route('/treino/ombro').get((req, res) => {
+app.route('/treino/ombros').get((req, res) => {
   const treinoOmbro = [
     {
       id: 9,
